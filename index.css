@@ -6,7 +6,7 @@
 }
 
 header {
-  height: 4rem;
+  height: 3.8rem;
   background-color: white;
   display: flex;
   align-items: center;
@@ -16,7 +16,7 @@ header {
 header .icon {
   flex: 15;
   font-family: "Times New Roman", Times, serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 header ul {
@@ -30,14 +30,14 @@ header ul li {
 }
 header ul li img {
   margin-left: 1rem;
-  width: 9rem;
-  height: 3rem;
+  width: 8rem;
+  height: 2.6rem;
 }
 header ul li a {
   text-decoration: none;
   color: black;
   font-family: "Times New Roman", Times, serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
 }
 
@@ -56,7 +56,7 @@ section .mainbody {
 }
 section .mainbody .bodyhead {
   border: 1px rgb(0, 0, 0) solid;
-  height: 4rem;
+  height: 3rem;
   display: flex;
 }
 section .mainbody .bodyhead ul {
@@ -70,9 +70,9 @@ section .mainbody .bodyhead ul button {
   color: white;
   background-color: blue;
   border-radius: 2px;
-  margin-top: 1rem;
+  margin-top: 0.2rem;
   margin-right: 0.4rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 section .mainbody .bodyhead ul li {
   height: 100%;
@@ -87,7 +87,7 @@ section .mainbody .bodyhead ul li {
 section .mainbody .bodyhead ul li .selec {
   border: none;
   font-family: "Times New Roman", Times, serif;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1rem;
 }
 section .mainbody .bodyhead ul li .selname {
@@ -105,11 +105,11 @@ section .mainbody .restbody .frstpart {
 section .mainbody .restbody .frstpart .text {
   margin: 2rem 0;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Times New Roman", Times, serif;
 }
 section .mainbody .restbody .frstpart h1 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-bottom: 1rem;
 }
 section .mainbody .restbody .frstpart .filt {
@@ -120,6 +120,7 @@ section .mainbody .restbody .frstpart .filt {
 section .mainbody .restbody .frstpart .filt .left span {
   font-weight: 700;
   margin-right: 1rem;
+  border: rgb(221, 216, 216) 1px solid;
 }
 section .mainbody .restbody .frstpart .filt .right {
   flex: 30;
@@ -151,16 +152,16 @@ section .mainbody .restbody .frstpart .mainbdy .cards .card {
   flex-direction: column;
   align-items: center;
   border: rgb(7, 32, 7) solid 1px;
-  height: 25rem;
-  width: 20rem;
+  height: 20rem;
+  width: 15rem;
   border-radius: 4px;
 }
 section .mainbody .restbody .frstpart .mainbdy .cards .card img {
-  width: 19.7rem;
-  height: 17rem;
+  width: 14.8rem;
+  height: 13rem;
 }
 section .mainbody .restbody .frstpart .mainbdy .cards .card .detail {
-  margin-top: 0.7rem;
+  margin-top: 0.3rem;
   margin-left: 1rem;
   padding-top: 1rem;
 }
@@ -176,6 +177,7 @@ section .mainbody .restbody .frstpart .mainbdy button {
   background-color: black;
 }
 section .mainbody .restbody .secpart {
+  margin-left: 2rem;
   margin-top: 2.5rem;
   flex: 20;
   display: flex;
